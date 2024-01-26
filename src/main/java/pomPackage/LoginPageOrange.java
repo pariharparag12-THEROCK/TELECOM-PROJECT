@@ -33,13 +33,13 @@ public class LoginPageOrange {
 	
 	
 	public void sendUsername() throws InterruptedException {
-		wait.until(ExpectedConditions.visibilityOf(username));
+		wait.until(ExpectedConditions.elementToBeClickable(username));
 		username.sendKeys("Admin");
 		Thread.sleep(3000);
 	}
 	
 	public void sendPassword() throws InterruptedException {
-		wait.until(ExpectedConditions.visibilityOf(password));
+		wait.until(ExpectedConditions.elementToBeClickable(password));
 		password.sendKeys("admin123");
 		Thread.sleep(3000);
 	}

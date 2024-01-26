@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T14:13:36 IST" name="SuiteOrange" finished-at="2023-11-16T14:15:07 IST" duration-ms="90298">
+  <suite started-at="2024-01-26T17:49:44 IST" name="SuiteOrange" finished-at="2024-01-26T17:51:38 IST" duration-ms="114558">
     <groups>
     </groups>
-    <test started-at="2023-11-16T14:13:36 IST" name="TestChrome" finished-at="2023-11-16T14:15:07 IST" duration-ms="90298">
+    <test started-at="2024-01-26T17:49:44 IST" name="TestChrome1" finished-at="2024-01-26T17:51:08 IST" duration-ms="84603">
       <class name="testPackage.VerifyOrangeTestClass1">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:13:36 IST" name="launchBrowser" finished-at="2023-11-16T14:14:21 IST" duration-ms="44948" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:49:44 IST" name="launchBrowser" finished-at="2024-01-26T17:49:49 IST" duration-ms="5261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,184 +18,166 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:14:21 IST" name="launchOrangeHRMApplication" finished-at="2023-11-16T14:14:32 IST" duration-ms="10982" status="PASS">
+        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:49:49 IST" name="launchOrangeHRMApplication" finished-at="2024-01-26T17:49:58 IST" duration-ms="8756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchOrangeHRMApplication -->
-        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:14:32 IST" name="LoginOrangeHRM" finished-at="2023-11-16T14:14:45 IST" duration-ms="12365" status="PASS">
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:49:58 IST" name="LoginOrangeHRM" finished-at="2024-01-26T17:50:09 IST" duration-ms="10907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginOrangeHRM -->
-        <test-method signature="verifyAdminOption()[pri:-1, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:14:45 IST" name="verifyAdminOption" finished-at="2023-11-16T14:14:48 IST" duration-ms="3098" status="PASS">
+        <test-method signature="verifyAdminOption()[pri:-1, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:09 IST" name="verifyAdminOption" finished-at="2024-01-26T17:50:13 IST" duration-ms="3721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminOption -->
-        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:14:48 IST" name="logoutOrangeHRM" finished-at="2023-11-16T14:14:53 IST" duration-ms="5330" status="PASS">
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:13 IST" name="logoutOrangeHRM" finished-at="2024-01-26T17:50:19 IST" duration-ms="5659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOrangeHRM -->
-        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:14:53 IST" name="LoginOrangeHRM" finished-at="2023-11-16T14:15:03 IST" duration-ms="9440" status="PASS">
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:19 IST" name="LoginOrangeHRM" finished-at="2024-01-26T17:50:28 IST" duration-ms="9394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginOrangeHRM -->
-        <test-method signature="verifyAboutOption()[pri:2, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:15:03 IST" name="verifyAboutOption" finished-at="2023-11-16T14:15:06 IST" duration-ms="2854" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=119.0.6045.159)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MSI', ip: '192.168.29.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=119.0.6045.159)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MSI', ip: '192.168.29.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at pomPackage.HomePageOrange.getOptionsONAccountOptionsDropDown(HomePageOrange.java:66)
-at testPackage.VerifyOrangeTestClass1.verifyAboutOption(VerifyOrangeTestClass1.java:104)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="verifyAboutOption()[pri:1, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:28 IST" name="verifyAboutOption" finished-at="2024-01-26T17:50:36 IST" duration-ms="7573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutOption -->
-        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:15:06 IST" name="logoutOrangeHRM" finished-at="2023-11-16T14:15:07 IST" duration-ms="1192" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <p class="oxd-userdropdown-name" data-v-bdd6d943="">...</p> is not clickable at point (1406, 33). Other element would receive the click: <div class="oxd-dialog-container-default" data-v-bcfca726="" data-v-126e9e0f="">...</div>
-  (Session info: chrome=119.0.6045.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MSI', ip: '192.168.29.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p class="oxd-userdropdown-name" data-v-bdd6d943="">...</p> is not clickable at point (1406, 33). Other element would receive the click: <div class="oxd-dialog-container-default" data-v-bcfca726="" data-v-126e9e0f="">...</div>
-  (Session info: chrome=119.0.6045.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MSI', ip: '192.168.29.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at pomPackage.HomePageOrange.clickOnAccountOptionsDropDown(HomePageOrange.java:55)
-at testPackage.VerifyOrangeTestClass1.logoutOrangeHRM(VerifyOrangeTestClass1.java:121)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:36 IST" name="logoutOrangeHRM" finished-at="2024-01-26T17:50:41 IST" duration-ms="5076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOrangeHRM -->
-        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:15:07 IST" name="cleanObjects" finished-at="2023-11-16T14:15:07 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:41 IST" name="LoginOrangeHRM" finished-at="2024-01-26T17:50:50 IST" duration-ms="9477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrangeHRM -->
+        <test-method signature="verifyEmployeeTableData()[pri:2, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:50:50 IST" name="verifyEmployeeTableData" finished-at="2024-01-26T17:51:03 IST" depends-on-methods="testPackage.VerifyOrangeTestClass1.verifyAboutOption" duration-ms="12242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTableData -->
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:51:03 IST" name="logoutOrangeHRM" finished-at="2024-01-26T17:51:08 IST" duration-ms="5110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOrangeHRM -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:51:08 IST" name="cleanObjects" finished-at="2024-01-26T17:51:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.VerifyOrangeTestClass1@3349e9bb]" started-at="2023-11-16T14:15:07 IST" name="closedBrowser" finished-at="2023-11-16T14:15:07 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.VerifyOrangeTestClass1@235834f2]" started-at="2024-01-26T17:51:08 IST" name="closedBrowser" finished-at="2024-01-26T17:51:08 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
       </class> <!-- testPackage.VerifyOrangeTestClass1 -->
-    </test> <!-- TestChrome -->
+    </test> <!-- TestChrome1 -->
+    <test started-at="2024-01-26T17:51:09 IST" name="TestChrome2" finished-at="2024-01-26T17:51:38 IST" duration-ms="29500">
+      <class name="testPackage.LoginTestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:09 IST" name="launchBrowser" finished-at="2024-01-26T17:51:09 IST" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:09 IST" name="launchOrangeHRMApplication" finished-at="2024-01-26T17:51:17 IST" duration-ms="7270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchOrangeHRMApplication -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:18 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-26T17:51:26 IST" duration-ms="7475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:26 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-26T17:51:30 IST" duration-ms="4421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:31 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-26T17:51:34 IST" duration-ms="3488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:34 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-26T17:51:38 IST" duration-ms="3565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:38 IST" name="cleanObjects" finished-at="2024-01-26T17:51:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.LoginTestClass@3857f613]" started-at="2024-01-26T17:51:38 IST" name="closedBrowser" finished-at="2024-01-26T17:51:38 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testPackage.LoginTestClass -->
+    </test> <!-- TestChrome2 -->
   </suite> <!-- SuiteOrange -->
 </testng-results>

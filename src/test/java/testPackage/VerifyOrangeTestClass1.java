@@ -2,6 +2,7 @@ package testPackage;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -14,6 +15,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+
+
 import basePackage.Base;
 import pomPackage.HomePageOrange;
 import pomPackage.LoginPageOrange;
@@ -22,14 +25,15 @@ import pomPackage.LoginPageOrange;
 
 public class VerifyOrangeTestClass1 extends Base {
 
-	private WebDriver driver;
+	//private WebDriver driver;
+	public WebDriver driver; //As Listner class not taking the object of WebDriver if it is private....
 	
 	private LoginPageOrange loginPageOrange;
 	private HomePageOrange homePageOrange;
 	
 	private SoftAssert softassert;
 	
-	
+
 	
 	@BeforeTest
 	@Parameters ("browser1")
@@ -51,15 +55,16 @@ public class VerifyOrangeTestClass1 extends Base {
 	@BeforeClass
 	public void launchOrangeHRMApplication() {
 		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("https://opensource-demo.orangehrmlive.com");
 		
-		System.out.println("Application Launched Successfully");
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		System.out.println("Application Launched Successfully" +"\n");
 
 		loginPageOrange = new LoginPageOrange(driver);
 		homePageOrange = new HomePageOrange(driver);
 		
 		softassert = new SoftAssert();
+		
 	}
 	
 	
@@ -74,7 +79,7 @@ public class VerifyOrangeTestClass1 extends Base {
 	}
 	
 	
-	@Test (priority = -1)
+	@Test ( priority = -1)
 	public void verifyAdminOption() throws InterruptedException {
 	
 		String actUrl1 = driver.getCurrentUrl();
@@ -100,30 +105,43 @@ public class VerifyOrangeTestClass1 extends Base {
 	}
 	
 	
-	@Test (priority = 2)
+	@Test (priority = 1 )
 	public void verifyAboutOption() throws InterruptedException {
 		
 		homePageOrange.clickOnAccountOptionsDropDown();
-		String companyNameValue2 = homePageOrange.getOptionsONAccountOptionsDropDown();
-		softassert.assertEquals(companyNameValue2, "OrangeHRM");
-		//softassert.assertTrue(actRes);
-		softassert.assertAll();
-		System.out.println("Assertion pass verifyAboutOption");
 		
+		String companyNameValue = homePageOrange.getOptionsONAccountOptionsDropDown(); //Actual value
+		
+		softassert.assertEquals(companyNameValue, "OrangeHRM");
+		
+		System.out.println("Company Name - OrangeHRM matched : " + companyNameValue);
+		
+		Thread.sleep(1000);
+				
 		homePageOrange.clickOnAboutCrossIcon();
+				
+		System.out.println("About Window Closed");
+
+		softassert.assertAll();
 	
 	}
 	
-	
-	
-	
+	@Test (priority=2, dependsOnMethods = "verifyAboutOption")
+	public void verifyEmployeeTableData() throws InterruptedException {
+		homePageOrange.clickOnAdminOption();
+		int statuscount = homePageOrange.findEmployeeTableData();
+		Assert.assertNotNull(statuscount);
+		System.out.println("Employees Enabled Status Count in table is : " + statuscount + "\n");
+		
+	}
+
 	
 	@AfterMethod
 	public void logoutOrangeHRM() throws InterruptedException {
 
 		homePageOrange.clickOnAccountOptionsDropDown();
 		homePageOrange.clickOnLogoutOption();
-		System.out.println("Application Logged-Out Successfully");
+		System.out.println("Application Logged-Out Successfully" +"\n");
 	}
 	
 	@AfterClass

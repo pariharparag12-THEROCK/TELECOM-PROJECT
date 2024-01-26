@@ -9,53 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SuiteOrange</th></tr>
-<tr><td><a href="#t0">TestChrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">90,298</td><td></td><td></td></tr>
+<tr><td><a href="#t0">TestChrome1</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">84,603</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">TestChrome2</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,500</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">114,103</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteOrange</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestChrome &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testPackage.VerifyOrangeTestClass1</td><td><a href="#m0">logoutOrangeHRM</a></td><td rowspan="1">1700124306055</td><td rowspan="1">1192</td></tr><tr><th colspan="4">TestChrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testPackage.VerifyOrangeTestClass1</td><td><a href="#m1">verifyAboutOption</a></td><td rowspan="1">1700124303201</td><td rowspan="1">2854</td></tr><tr><th colspan="4">TestChrome &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">testPackage.VerifyOrangeTestClass1</td><td><a href="#m2">cleanObjects</a></td><td rowspan="1">1700124307247</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">closedBrowser</a></td><td rowspan="1">1700124307247</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestChrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testPackage.VerifyOrangeTestClass1</td><td><a href="#m4">verifyAdminOption</a></td><td rowspan="1">1700124285289</td><td rowspan="1">3098</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteOrange</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestChrome1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testPackage.VerifyOrangeTestClass1</td><td><a href="#m0">verifyAboutOption</a></td><td rowspan="1">1706271628533</td><td rowspan="1">7573</td></tr><tr class="passedeven"><td><a href="#m1">verifyAdminOption</a></td><td rowspan="1">1706271609515</td><td rowspan="1">3721</td></tr><tr class="passedeven"><td><a href="#m2">verifyEmployeeTableData</a></td><td rowspan="1">1706271650844</td><td rowspan="1">12242</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">TestChrome2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testPackage.LoginTestClass</td><td><a href="#m3">loginTest</a></td><td rowspan="4">1706271678897</td><td rowspan="4">7475</td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m5">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m6">loginTest</a></td></tr></tbody>
 </table>
-<h2>TestChrome</h2><h3 id="m0">testPackage.VerifyOrangeTestClass1#logoutOrangeHRM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;oxd-userdropdown-name&quot; data-v-bdd6d943=&quot;&quot;&gt;...&lt;/p&gt; is not clickable at point (1406, 33). Other element would receive the click: &lt;div class=&quot;oxd-dialog-container-default&quot; data-v-bcfca726=&quot;&quot; data-v-126e9e0f=&quot;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=119.0.6045.159)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MSI&apos;, ip: &apos;192.168.29.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at pomPackage.HomePageOrange.clickOnAccountOptionsDropDown(HomePageOrange.java:55)
-	at testPackage.VerifyOrangeTestClass1.logoutOrangeHRM(VerifyOrangeTestClass1.java:121)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testPackage.VerifyOrangeTestClass1#verifyAboutOption</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=119.0.6045.159)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MSI&apos;, ip: &apos;192.168.29.91&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\ppiyu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25fa2fb7a91fce81b245c79d5c37d52c
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at pomPackage.HomePageOrange.getOptionsONAccountOptionsDropDown(HomePageOrange.java:66)
-	at testPackage.VerifyOrangeTestClass1.verifyAboutOption(VerifyOrangeTestClass1.java:104)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testPackage.VerifyOrangeTestClass1#cleanObjects</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testPackage.VerifyOrangeTestClass1#closedBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testPackage.VerifyOrangeTestClass1#verifyAdminOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestChrome1</h2><h3 id="m0">testPackage.VerifyOrangeTestClass1#verifyAboutOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testPackage.VerifyOrangeTestClass1#verifyAdminOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testPackage.VerifyOrangeTestClass1#verifyEmployeeTableData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestChrome2</h2><h3 id="m3">testPackage.LoginTestClass#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin</td><td>admin123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testPackage.LoginTestClass#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>admin124</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testPackage.LoginTestClass#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin1</td><td>Admin127</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testPackage.LoginTestClass#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>Admin23</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
