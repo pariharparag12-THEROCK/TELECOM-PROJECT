@@ -61,7 +61,7 @@ public class LoginTestClass extends Base{
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println("Application Launched Successfully" +"\n");
 
 //		loginPageOrange = new LoginPageOrange(driver);
