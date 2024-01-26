@@ -43,7 +43,7 @@ public class HomePagePractice1 {
 	@FindBy (xpath = "(//div[@role='row'])[2]//div[@role='cell']")
 	private List<WebElement> columns;
 	
-	
+	//UPDATED BY PARAG
 	
 	public HomePagePractice1 (WebDriver driver) {
 		
@@ -67,6 +67,7 @@ public class HomePagePractice1 {
 		wait.until(ExpectedConditions.elementToBeClickable(accountOptions));
 		accountOptions.click();
 		Thread.sleep(2000);
+
 	}
 	
 	
@@ -144,6 +145,8 @@ public class HomePagePractice1 {
 	public void clickOnCrossIconOnAccountWindow() throws InterruptedException {
 		wait.until(ExpectedConditions.elementToBeClickable(crossIcon));
 		crossIcon.click();
+		
+		System.out.println("26/01/2023 UPDATED");
 		Thread.sleep(3000);
 	}
 	
