@@ -8,22 +8,22 @@ import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import basePackage.Base;
-import pomPackage.HomePageOrange;
-import pomPackage.LoginPageOrange;
-import utilityPackage.ScreenShotPP;
+
+
+
 import utilityPackage.Utils;
 
 
@@ -35,7 +35,7 @@ public class LoginTestClass extends Base{
 	//private LoginPageOrange loginPageOrange;
 	//private HomePageOrange homePageOrange;
 	
-	private SoftAssert softassert;
+	 SoftAssert softassert;
 	
 
 	
@@ -61,11 +61,11 @@ public class LoginTestClass extends Base{
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println("Application Launched Successfully" +"\n");
 
-//		loginPageOrange = new LoginPageOrange(driver);
-//		homePageOrange = new HomePageOrange(driver);
+		//loginPageOrange = new LoginPageOrange(driver);
+		//homePageOrange = new HomePageOrange(driver);
 //		
 		softassert = new SoftAssert();
 		
@@ -75,7 +75,7 @@ public class LoginTestClass extends Base{
 	@Test(dataProvider = "LoginData")
 	public void loginTest(String user, String pwd, String exp) throws InterruptedException, IOException {
 		
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		//driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
 		WebElement username = driver.findElement(By.xpath("//input[@name='username'] "));
 		username.clear();

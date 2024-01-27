@@ -1,17 +1,11 @@
 package listner;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -28,8 +22,11 @@ public class ListnerClass implements ITestListener {
 	
 	String testName;
 	ExtentReports extentReport;
-	ExtentTest extentTest;
+	static ExtentTest extentTest;
 	WebDriver driver;
+	
+	
+
 	
 	
 	@Override  //Test start under Suite
@@ -44,6 +41,7 @@ public class ListnerClass implements ITestListener {
 		testName = result.getName();
 		extentTest = extentReport.createTest(testName); //Generate the entry of testName in Extent Report
 		extentTest.log(Status.INFO, testName+ " : Started Executing");
+       
 	}
 
 	@Override  //Test Method Success
