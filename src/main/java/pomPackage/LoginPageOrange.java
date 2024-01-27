@@ -1,11 +1,15 @@
 package pomPackage;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import utilityPackage.PropertyClass;
 
 public class LoginPageOrange {
 
@@ -32,15 +36,15 @@ public class LoginPageOrange {
 	}
 	
 	
-	public void sendUsername() throws InterruptedException {
+	public void sendUsername() throws InterruptedException, IOException {
 		wait.until(ExpectedConditions.elementToBeClickable(username));
-		username.sendKeys("Admin");
+		username.sendKeys(PropertyClass.readDataFromPropertyFile("USERNAME"));
 		Thread.sleep(3000);
 	}
 	
-	public void sendPassword() throws InterruptedException {
+	public void sendPassword() throws InterruptedException, IOException {
 		wait.until(ExpectedConditions.elementToBeClickable(password));
-		password.sendKeys("admin123");
+		password.sendKeys(PropertyClass.readDataFromPropertyFile("PASSWORD"));
 		Thread.sleep(3000);
 	}
 	

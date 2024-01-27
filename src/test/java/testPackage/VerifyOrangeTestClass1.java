@@ -74,7 +74,7 @@ public class VerifyOrangeTestClass1 extends Base {
 	
 	
 	@BeforeMethod
-	public void LoginOrangeHRM() throws InterruptedException {
+	public void LoginOrangeHRM() throws InterruptedException, IOException {
 		
 		loginPageOrange.sendUsername();
 		loginPageOrange.sendPassword();

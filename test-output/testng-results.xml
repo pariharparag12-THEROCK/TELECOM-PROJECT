@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T15:35:57 IST" name="SuiteOrange" finished-at="2024-01-27T15:36:25 IST" duration-ms="28008">
+  <suite started-at="2024-01-28T00:20:12 IST" name="SuiteOrange" finished-at="2024-01-28T00:22:12 IST" duration-ms="119922">
     <groups>
     </groups>
-    <test started-at="2024-01-27T15:35:57 IST" name="TestChrome2" finished-at="2024-01-27T15:36:25 IST" duration-ms="28008">
-      <class name="testPackage.LoginTestClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:35:57 IST" name="launchBrowser" finished-at="2024-01-27T15:35:59 IST" duration-ms="1922" status="PASS">
+    <test started-at="2024-01-28T00:20:12 IST" name="TestChrome1" finished-at="2024-01-28T00:21:41 IST" duration-ms="89282">
+      <class name="testPackage.VerifyOrangeTestClass1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:12 IST" name="launchBrowser" finished-at="2024-01-28T00:20:14 IST" duration-ms="2023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,74 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:35:59 IST" name="launchOrangeHRMApplication" finished-at="2024-01-27T15:36:09 IST" duration-ms="9876" status="PASS">
+        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:14 IST" name="launchOrangeHRMApplication" finished-at="2024-01-28T00:20:28 IST" duration-ms="14305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchOrangeHRMApplication -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:10 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-27T15:36:18 IST" duration-ms="7446" status="PASS">
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:28 IST" name="LoginOrangeHRM" finished-at="2024-01-28T00:20:41 IST" duration-ms="13042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrangeHRM -->
+        <test-method signature="verifyAdminOption()[pri:-1, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:41 IST" name="verifyAdminOption" finished-at="2024-01-28T00:20:45 IST" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminOption -->
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:45 IST" name="logoutOrangeHRM" finished-at="2024-01-28T00:20:50 IST" duration-ms="5330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOrangeHRM -->
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:20:50 IST" name="LoginOrangeHRM" finished-at="2024-01-28T00:21:00 IST" duration-ms="9637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrangeHRM -->
+        <test-method signature="verifyAboutOption()[pri:1, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:00 IST" name="verifyAboutOption" finished-at="2024-01-28T00:21:08 IST" duration-ms="7737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutOption -->
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:08 IST" name="logoutOrangeHRM" finished-at="2024-01-28T00:21:13 IST" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOrangeHRM -->
+        <test-method is-config="true" signature="LoginOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:13 IST" name="LoginOrangeHRM" finished-at="2024-01-28T00:21:23 IST" duration-ms="9604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOrangeHRM -->
+        <test-method signature="verifyEmployeeTableData()[pri:2, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:23 IST" name="verifyEmployeeTableData" finished-at="2024-01-28T00:21:35 IST" depends-on-methods="testPackage.VerifyOrangeTestClass1.verifyAboutOption" duration-ms="12406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTableData -->
+        <test-method is-config="true" signature="logoutOrangeHRM()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:35 IST" name="logoutOrangeHRM" finished-at="2024-01-28T00:21:41 IST" duration-ms="5163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOrangeHRM -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:41 IST" name="closedBrowser" finished-at="2024-01-28T00:21:41 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.VerifyOrangeTestClass1@75d4a5c2]" started-at="2024-01-28T00:21:41 IST" name="cleanObjects" finished-at="2024-01-28T00:21:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
+      </class> <!-- testPackage.VerifyOrangeTestClass1 -->
+    </test> <!-- TestChrome1 -->
+    <test started-at="2024-01-28T00:21:41 IST" name="TestChrome2" finished-at="2024-01-28T00:22:12 IST" duration-ms="30232">
+      <class name="testPackage.LoginTestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:21:41 IST" name="launchBrowser" finished-at="2024-01-28T00:21:42 IST" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchOrangeHRMApplication()[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:21:42 IST" name="launchOrangeHRMApplication" finished-at="2024-01-28T00:21:55 IST" duration-ms="12804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchOrangeHRMApplication -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:21:56 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-28T00:22:03 IST" duration-ms="6704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:18 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-27T15:36:20 IST" duration-ms="2337" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:22:03 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-28T00:22:06 IST" duration-ms="2754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:20 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-27T15:36:23 IST" duration-ms="2233" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:22:06 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-28T00:22:08 IST" duration-ms="2486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:23 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-27T15:36:25 IST" duration-ms="2172" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:22:09 IST" name="loginTest" data-provider="LoginData" finished-at="2024-01-28T00:22:11 IST" duration-ms="2321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,14 +169,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:25 IST" name="cleanObjects" finished-at="2024-01-27T15:36:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.LoginTestClass@443118b0]" started-at="2024-01-27T15:36:25 IST" name="closedBrowser" finished-at="2024-01-27T15:36:25 IST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:22:11 IST" name="closedBrowser" finished-at="2024-01-28T00:22:12 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
+        <test-method is-config="true" signature="cleanObjects()[pri:0, instance:testPackage.LoginTestClass@3bd82cf5]" started-at="2024-01-28T00:22:11 IST" name="cleanObjects" finished-at="2024-01-28T00:22:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanObjects -->
       </class> <!-- testPackage.LoginTestClass -->
     </test> <!-- TestChrome2 -->
   </suite> <!-- SuiteOrange -->

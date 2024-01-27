@@ -13,12 +13,12 @@
 		    </classes>
 	  </test> 
   
-  	<!--  <test name="TestChrome2" >
+  	 <test name="TestChrome2" >
 	  	<parameter name = "browser1" value = "Chrome"/>
 	    	<classes>
 	      		<class name="testPackage.LoginTestClass"/>
 	    	</classes>
-	  </test>  -->
+	  </test> 
 	  
 	  <!--  <test name="TestChrome3" >
 	  	<parameter name = "browser1" value = "Chrome"/>

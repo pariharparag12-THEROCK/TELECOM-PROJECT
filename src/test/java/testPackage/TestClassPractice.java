@@ -1,5 +1,6 @@
 package testPackage;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
@@ -73,7 +74,7 @@ public class TestClassPractice extends Base {
 	
 	
 	@BeforeMethod
-	public void LoginOrangeHRM() throws InterruptedException {
+	public void LoginOrangeHRM() throws InterruptedException, IOException {
 		
 		loginPageOrange.sendUsername();
 		loginPageOrange.sendPassword();
