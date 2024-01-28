@@ -6,19 +6,29 @@
         <listener class-name="listner.ListnerClass" />
     </listeners>
   
-	  <test name="TestChrome1" >
+	  <!-- <test name="TestChrome1" >
 		<parameter name = "browser1" value = "Chrome"/>
 		    <classes>
 		      <class name="testPackage.VerifyOrangeTestClass1"/>
 		    </classes>
+	  </test>  -->
+	  
+	  
+	   <test name="TestChrome4" >
+		<parameter name = "browser1" value = "Chrome"/>
+		    <classes>
+		      <class name="testPackage.VerifyOrangeTestClass2_Log4j"/>
+		    </classes>
 	  </test> 
+	  
+	  
   
-  	 <test name="TestChrome2" >
+  	<!--  <test name="TestChrome2" >
 	  	<parameter name = "browser1" value = "Chrome"/>
 	    	<classes>
 	      		<class name="testPackage.LoginTestClass"/>
 	    	</classes>
-	  </test> 
+	  </test>  -->
 	  
 	  <!--  <test name="TestChrome3" >
 	  	<parameter name = "browser1" value = "Chrome"/>

@@ -63,6 +63,8 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 		
 		logger = logger.getLogger("Symworld"); // logger se project configure hua
 		
+		// logger always use in test class
+		
 		PropertyConfigurator.configure("log4j.properties"); // log file configure hui
 		
 		logger.info("BROWSER CHROME LAUCHED");
@@ -76,6 +78,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		System.out.println("Application Launched Successfully" +"\n");
+		logger.info("Application Launched Successfully");
 
 		loginPageOrange = new LoginPageOrange(driver);
 		homePageOrange = new HomePageOrange(driver);
@@ -89,8 +92,11 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 	public void LoginOrangeHRM() throws InterruptedException, IOException {
 		
 		loginPageOrange.sendUsername();
+		logger.info("User entered username");
 		loginPageOrange.sendPassword();
+		logger.info("User entered password");
 		loginPageOrange.clickOnLoginButton();
+		logger.info("User clicked on login button");
 		
 		System.out.println("User Clicked on login button");
 	}
@@ -145,10 +151,13 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 	
 	@Test (priority=2, dependsOnMethods = "verifyAboutOption")
 	public void verifyEmployeeTableData() throws InterruptedException {
+		
+		logger.warn("User should be clicked on Admin Option berfore navigating to admin table");
 		homePageOrange.clickOnAdminOption();
 		int statuscount = homePageOrange.findEmployeeTableData();
 		Assert.assertNotNull(statuscount);
 		System.out.println("Employees Enabled Status Count in table is : " + statuscount + "\n");
+		logger.error("verifyEmployeeTableData TEST CASE is Passed");
 		
 	}
 	
@@ -177,6 +186,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 		driver = null;
 		System.gc();
 		System.out.println("Browser closed successfully");
+		logger.info("Browser closed successfully");
 	}
 	
 }
