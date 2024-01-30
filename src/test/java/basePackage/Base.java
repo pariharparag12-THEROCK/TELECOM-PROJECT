@@ -14,6 +14,7 @@ public class Base {
 	//	System.setProperty("webdriver.chrome.driver", "E:\\AUTOMATION\\chromedriver-win64\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		
+//		
 		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("enable-automation");
 //		options.addArguments("--headless");
