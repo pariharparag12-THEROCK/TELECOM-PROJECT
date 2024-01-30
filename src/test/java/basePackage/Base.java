@@ -13,7 +13,6 @@ public class Base {
 	public WebDriver openChromeBrowser() {
 	//	System.setProperty("webdriver.chrome.driver", "E:\\AUTOMATION\\chromedriver-win64\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
-
 		
 		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("enable-automation");
@@ -23,7 +22,7 @@ public class Base {
 //		options.addArguments("--disable-extensions");
 //		options.addArguments("--dns-prefetch-disable");
 //		options.addArguments("--disable-gpu");
-		
+//		
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
