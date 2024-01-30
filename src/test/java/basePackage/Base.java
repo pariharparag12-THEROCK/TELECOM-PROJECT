@@ -23,7 +23,7 @@ public class Base {
 //		options.addArguments("--disable-extensions");
 //		options.addArguments("--dns-prefetch-disable");
 //		options.addArguments("--disable-gpu");
-//		
+
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
