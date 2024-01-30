@@ -25,7 +25,7 @@ public class Base {
 //		options.addArguments("--dns-prefetch-disable");
 //		options.addArguments("--disable-gpu");
 		
-	
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		System.out.println("Chrome Browser Launched Successfully");
