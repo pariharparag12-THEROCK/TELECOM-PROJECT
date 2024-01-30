@@ -31,7 +31,6 @@ public class Base {
 		System.out.println("Chrome Browser Launched Successfully");
 		driver.manage().deleteAllCookies();
 		return driver;
-		
 	}
 	
 	public WebDriver openFirefoxBrowser() {
