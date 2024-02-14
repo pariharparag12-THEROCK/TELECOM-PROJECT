@@ -3,19 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPackage.TestClassPractice">
+      <class name="testPackage.VerifyOrangeTestClass3_Log4j2">
         <methods>
+          <include name="closedBrowser"/>
+          <include name="logoutOrangeHRM"/>
+          <include name="cleanObjects"/>
+          <include name="VerifyAdminOption"/>
+          <include name="VerifyAccountOptionDropDown"/>
           <include name="launchOrangeHRMApplication"/>
           <include name="launchBrowser"/>
-          <include name="verifyEmployeeTableData"/>
-          <include name="verifyAdminOption"/>
           <include name="LoginOrangeHRM"/>
-          <include name="cleanObjects"/>
-          <include name="closedBrowser"/>
-          <include name="verifyAboutWindow"/>
-          <include name="logoutOrangeHRM"/>
         </methods>
-      </class> <!-- testPackage.TestClassPractice -->
+      </class> <!-- testPackage.VerifyOrangeTestClass3_Log4j2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

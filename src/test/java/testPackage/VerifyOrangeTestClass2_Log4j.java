@@ -58,6 +58,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 			
 			
 			helloo parag how arwe u git check
+			Februrary
 		}*/
 		
 		
@@ -76,7 +77,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println("Application Launched Successfully" +"\n");
 		logger.info("Application Launched Successfully");
 

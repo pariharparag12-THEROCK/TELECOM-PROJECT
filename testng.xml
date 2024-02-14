@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SuiteOrange" thread-count="2"  >
+<suite name="SuiteOrange" thread-count="1"  >
 
 	<listeners>
         <listener class-name="listner.ListnerClass" />
@@ -14,12 +14,23 @@
 	  </test>  -->
 	  
 	  
-	   <test name="TestChrome4" >
+	 <!--   <test name="TestChrome4" >
 		<parameter name = "browser1" value = "Chrome"/>
 		    <classes>
 		      <class name="testPackage.VerifyOrangeTestClass2_Log4j"/>
 		    </classes>
 	  </test> 
+	   -->
+	  
+	  
+	   <test name="TestChrome4" >
+		<parameter name = "browser1" value = "Chrome"/>
+		    <classes>
+		      <class name="testPackage.VerifyOrangeTestClass3_Log4j2"/>
+		    </classes>
+	  </test> 
+	  
+	  
 	  
 	  
   
