@@ -388,3 +388,29 @@
 2024-02-15 00:43:17,919 [main] INFO Symworld - Clicked on Account Option
 2024-02-15 00:43:21,106 [main] INFO Symworld - Application Logged-Out Successfully
 2024-02-15 00:43:21,356 [main] INFO Symworld - Browser closed successfully
+2024-02-15 01:17:40,332 [main] INFO Symworld - Browser Launched Successfully
+2024-02-15 01:20:13,061 [main] INFO Symworld - Navigated to Application Successfully
+2024-02-15 01:20:32,667 [main] INFO Symworld - username entered successfully
+2024-02-15 01:20:35,897 [main] INFO Symworld - password entered successfully
+2024-02-15 01:20:39,002 [main] INFO Symworld - login button clicked successfully
+2024-02-15 01:20:43,767 [main] INFO Symworld - Admin Option clicked successfully
+2024-02-15 01:20:43,780 [main] INFO Symworld - Admin option URL matched successfully
+2024-02-15 01:20:43,784 [main] ERROR Symworld - Admin option Title matched successfully
+2024-02-15 01:20:46,165 [main] INFO Symworld - Clicked on Account Option
+2024-02-15 01:20:49,146 [main] INFO Symworld - Application Logged-Out Successfully
+2024-02-15 01:20:52,290 [main] INFO Symworld - username entered successfully
+2024-02-15 01:20:55,420 [main] INFO Symworld - password entered successfully
+2024-02-15 01:20:58,533 [main] INFO Symworld - login button clicked successfully
+2024-02-15 01:21:00,734 [main] INFO Symworld - AccountOptions dropdown clicked successfully
+2024-02-15 01:21:01,277 [main] INFO Symworld - VersionValue matched : successfully OrangeHRM OS 5.6
+2024-02-15 01:21:04,575 [main] INFO Symworld - User closed About Window
+2024-02-15 01:21:06,896 [main] INFO Symworld - Clicked on Account Option
+2024-02-15 01:21:09,978 [main] INFO Symworld - Application Logged-Out Successfully
+2024-02-15 01:21:13,122 [main] INFO Symworld - username entered successfully
+2024-02-15 01:21:16,293 [main] INFO Symworld - password entered successfully
+2024-02-15 01:21:19,416 [main] INFO Symworld - login button clicked successfully
+2024-02-15 01:21:30,863 [main] INFO Symworld - Admin Option clicked successfully
+2024-02-15 01:21:34,760 [main] INFO Symworld - Employee status having some value
+2024-02-15 01:21:36,990 [main] INFO Symworld - Clicked on Account Option
+2024-02-15 01:21:40,157 [main] INFO Symworld - Application Logged-Out Successfully
+2024-02-15 01:21:40,382 [main] INFO Symworld - Browser closed successfully
