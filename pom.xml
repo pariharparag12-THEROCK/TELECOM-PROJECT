@@ -8,6 +8,15 @@
   
   <dependencies>
   
+		  
+		  			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-chrome-driver</artifactId>
+		    <version>4.16.1</version>
+		</dependency>
+  			
+  
   
 		  		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -66,14 +75,14 @@
 		    <version>2.15.0</version>
 		</dependency>
 
-
-					
-					<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+			
+								<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 			<dependency>
 			    <groupId>io.github.bonigarcia</groupId>
 			    <artifactId>webdrivermanager</artifactId>
-			    <version>5.5.3</version>
+			    <version>5.7.0</version>
 			</dependency>
+
 			
 					<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<!-- <dependency>

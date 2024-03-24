@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.bouncycastle.oer.its.ieee1609dot2.basetypes.PublicVerificationKey;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -51,6 +51,8 @@ public class VerifyOrangeTestClass3_Log4j2 extends Base {
 			
 			
 		}*/
+		
+		//24 march updated
 		
 		logger = Logger.getLogger("Symworld");
 		

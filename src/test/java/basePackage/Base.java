@@ -12,10 +12,10 @@ public class Base {
 	
 	public WebDriver openChromeBrowser() {
 	//	System.setProperty("webdriver.chrome.driver", "E:\\AUTOMATION\\chromedriver-win64\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		
 //		
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
 //		options.addArguments("enable-automation");
 //		options.addArguments("--headless");
 //		options.addArguments("--window-size=1920,1080");
