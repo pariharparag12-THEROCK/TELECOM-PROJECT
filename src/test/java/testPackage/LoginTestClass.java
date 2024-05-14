@@ -2,7 +2,7 @@ package testPackage;
 
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
@@ -30,7 +30,7 @@ import utilityPackage.Utils;
 public class LoginTestClass extends Base{
 
 	//WebDriver driver;
-	public WebDriver driver; //As Listner class not taking the object of WebDriver if it has default modifier....
+	public  WebDriver driver; //As Listner-->extentreport class not taking the object of WebDriver if it has default modifier....
 	
 	//private LoginPageOrange loginPageOrange;
 	//private HomePageOrange homePageOrange;
@@ -60,7 +60,7 @@ public class LoginTestClass extends Base{
 		
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		System.out.println("Application Launched Successfully" +"\n");
 
 		//loginPageOrange = new LoginPageOrange(driver);
@@ -123,15 +123,14 @@ public class LoginTestClass extends Base{
 
 	@DataProvider(name= "LoginData")
 	public String[][] getData() throws EncryptedDocumentException, IOException {
-		
 		/*String loginData[][] = {
 				{"Admin", "admin123", "Valid"},
 				{"admin", "admin124", "Invalid"},
 				{"Admin1", "Admin127", "Invalid"},
 				{"admin", "Admin23", "Invalid"}
 				
-		};	*/
-		
+		};	
+		*/
 		
 		String path = ".\\src\\main\\resources\\Login_DATA.xlsx";
 		
