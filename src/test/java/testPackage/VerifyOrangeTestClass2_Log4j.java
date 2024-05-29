@@ -150,6 +150,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 
 		softassert.assertAll();
 	
+		
 	}
 	
 	@Test (priority=2, dependsOnMethods = "verifyAboutOption")
