@@ -138,7 +138,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 		
 		String companyNameValue = homePageOrange.getOptionsONAccountOptionsDropDown(); //Actual value
 		
-		softassert.assertEquals(companyNameValue, "OrangeHRM");
+		softassert.assertEquals(companyNameValue, "OrangeHRMtest");
 		
 		System.out.println("Company Name - OrangeHRM matched : " + companyNameValue);
 		
@@ -150,6 +150,7 @@ public class VerifyOrangeTestClass2_Log4j extends Base {
 
 		softassert.assertAll();
 	
+		
 	}
 	
 	@Test (priority=2, dependsOnMethods = "verifyAboutOption")
