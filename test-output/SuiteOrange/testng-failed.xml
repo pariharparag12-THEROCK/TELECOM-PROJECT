@@ -4,22 +4,21 @@
   <listeners>
     <listener class-name="listner.ListnerClass"/>
   </listeners>
-  <test thread-count="1" name="TestChrome4(failed)">
+  <test thread-count="1" name="TestChrome1(failed)">
     <parameter name="browser1" value="Chrome"/>
     <classes>
-      <class name="testPackage.VerifyOrangeTestClass3_Log4j2">
+      <class name="testPackage.VerifyOrangeTestClass2_Log4j">
         <methods>
+          <include name="cleanObjects"/>
           <include name="closedBrowser"/>
           <include name="logoutOrangeHRM"/>
-          <include name="verifyEmployeeTableDATA"/>
-          <include name="VerifyAdminOption"/>
-          <include name="cleanObjects"/>
-          <include name="VerifyAccountOptionDropDown"/>
+          <include name="verifyAboutOption"/>
           <include name="launchOrangeHRMApplication"/>
-          <include name="launchBrowser"/>
           <include name="LoginOrangeHRM"/>
+          <include name="verifyEmployeeTableData"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testPackage.VerifyOrangeTestClass3_Log4j2 -->
+      </class> <!-- testPackage.VerifyOrangeTestClass2_Log4j -->
     </classes>
-  </test> <!-- TestChrome4(failed) -->
+  </test> <!-- TestChrome1(failed) -->
 </suite> <!-- Failed suite [SuiteOrange] -->

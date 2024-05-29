@@ -605,3 +605,27 @@
 2024-05-14 12:53:44,958 [main] WARN Symworld - User should be clicked on Admin Option berfore navigating to admin table
 2024-05-14 12:53:51,508 [main] ERROR Symworld - verifyEmployeeTableData TEST CASE is Passed
 2024-05-14 12:53:57,059 [main] INFO Symworld - Browser closed successfully
+2024-05-29 18:18:35,581 [main] INFO Symworld - BROWSER CHROME LAUCHED
+2024-05-29 18:18:45,992 [main] INFO Symworld - Application Launched Successfully
+2024-05-29 18:18:53,013 [main] INFO Symworld - BROWSER CHROME LAUCHED
+2024-05-29 18:19:02,326 [main] INFO Symworld - Application Launched Successfully
+2024-05-29 18:19:06,184 [main] INFO Symworld - User entered username
+2024-05-29 18:19:09,412 [main] INFO Symworld - User entered password
+2024-05-29 18:19:12,542 [main] INFO Symworld - User clicked on login button
+2024-05-29 18:19:24,481 [main] INFO Symworld - User entered username
+2024-05-29 18:19:27,643 [main] INFO Symworld - User entered password
+2024-05-29 18:19:32,386 [main] INFO Symworld - User clicked on login button
+2024-05-29 18:46:24,686 [main] INFO Symworld - BROWSER CHROME LAUCHED
+2024-05-29 18:46:36,117 [main] INFO Symworld - Application Launched Successfully
+2024-05-29 18:46:40,319 [main] INFO Symworld - User entered username
+2024-05-29 18:46:43,604 [main] INFO Symworld - User entered password
+2024-05-29 18:46:46,751 [main] INFO Symworld - User clicked on login button
+2024-05-29 18:46:59,826 [main] INFO Symworld - User entered username
+2024-05-29 18:47:03,090 [main] INFO Symworld - User entered password
+2024-05-29 18:47:06,225 [main] INFO Symworld - User clicked on login button
+2024-05-29 18:47:22,593 [main] INFO Symworld - User entered username
+2024-05-29 18:47:25,862 [main] INFO Symworld - User entered password
+2024-05-29 18:47:30,713 [main] INFO Symworld - User clicked on login button
+2024-05-29 18:47:30,714 [main] WARN Symworld - User should be clicked on Admin Option berfore navigating to admin table
+2024-05-29 18:47:36,875 [main] ERROR Symworld - verifyEmployeeTableData TEST CASE is Passed
+2024-05-29 18:47:42,803 [main] INFO Symworld - Browser closed successfully
