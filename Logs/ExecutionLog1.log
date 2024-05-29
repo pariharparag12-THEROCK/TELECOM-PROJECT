@@ -629,3 +629,12 @@
 2024-05-29 18:47:30,714 [main] WARN Symworld - User should be clicked on Admin Option berfore navigating to admin table
 2024-05-29 18:47:36,875 [main] ERROR Symworld - verifyEmployeeTableData TEST CASE is Passed
 2024-05-29 18:47:42,803 [main] INFO Symworld - Browser closed successfully
+2024-05-29 19:21:10,482 [main] INFO Symworld - BROWSER CHROME LAUCHED
+2024-05-29 19:21:17,501 [main] INFO Symworld - Application Launched Successfully
+2024-05-29 19:21:20,930 [main] INFO Symworld - User entered username
+2024-05-29 19:21:24,056 [main] INFO Symworld - User entered password
+2024-05-29 19:21:28,511 [main] INFO Symworld - User clicked on login button
+2024-05-29 19:21:39,480 [main] INFO Symworld - User entered username
+2024-05-29 19:21:42,549 [main] INFO Symworld - User entered password
+2024-05-29 19:21:47,128 [main] INFO Symworld - User clicked on login button
+2024-05-29 19:21:59,961 [main] INFO Symworld - Browser closed successfully
