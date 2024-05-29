@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	//parag
+	//parag parihar
 	
 	public WebDriver openChromeBrowser() {
 	//	System.setProperty("webdriver.chrome.driver", "E:\\AUTOMATION\\chromedriver-win64\\chromedriver.exe");
