@@ -26,7 +26,7 @@ public class HomePageOrange {
 	@FindBy (xpath = "//p[contains(@class,'oxd-userdropdown-name')]")
 	private WebElement accountOptions;
 	
-	@FindBy(xpath = "//div//p[text()='OrangeHRM']")
+	@FindBy(xpath = "//p[@class='oxd-text oxd-text--p orangehrm-about-text']/ancestor::div[@class='oxd-grid-2 orangehrm-about']/descendant::p[2]")
 	private WebElement companyNameValue;
 	
 	

@@ -9,7 +9,7 @@
 	   <test name="TestChrome1" >
 		<parameter name = "browser1" value = "Chrome"/>
 		    <classes>
-		      <class name="testPackage.VerifyOrangeTestClass1"/>
+		      <class name="testPackage.VerifyOrangeTestClass2_Log4j"/>
 		    </classes>
 	  </test>  
 	  
